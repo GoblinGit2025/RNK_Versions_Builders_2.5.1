@@ -2,10 +2,10 @@
 
 setlocal
 
-set "REPO_URL=https://github.com/GoblinGit2025/RNK_Versions_Builders.git"
+set "REPO_URL=https://github.com/GoblinGit2025/RNK_Versions_Builders_2.5.1.git"
 set "PUSH_BAT_NAME=gitPushGoblin.bat"
 set "GIT_IGNORE_BAT_NAME=gitIgnoreInit.bat"
-set "TARGET_DIR=%~dp0RNK_Versions_Builders"
+set "TARGET_DIR=%~dp0RNK_Versions_Builders_2.5.1"
 set "CURRENT_DIR=%CD%"
 
 if not exist "%TARGET_DIR%\.git" (
